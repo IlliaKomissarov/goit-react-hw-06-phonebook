@@ -1,0 +1,15 @@
+.container {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 50px 30px 30px;
+  background-color: #4c868a;
+  box-shadow: var(--boxShadow);
+  border-radius: 8px;
+}
+
+.container:hover {
+  -webkit-box-shadow: 2px 2px 5px rgba(31, 54, 32, 0.7);
+          box-shadow: 2px 2px 5px rgba(35, 51, 32, 0.7);
+}

@@ -1,0 +1,30 @@
+.list {
+  margin-top: 30px;
+  color: #12375a;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 130px;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(32, 170, 39, 0.7);       
+  
+  transition: transform 150ms var(--timingFn);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
